@@ -1,0 +1,109 @@
+*{
+    font-family: "Gabarito";
+    
+}
+
+
+#photo{
+
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;;
+}
+
+
+
+#menu{
+    
+    top: 0;
+    left: 0;
+    color : white;
+
+    background-color: #232323;
+    font-size: 2em;
+    font-weight: bold;
+
+    font-family: "Gabarito";
+    text-align: left;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+}
+
+.button{
+  margin-top: 1em;
+  margin-left: 1em;
+  display: block;
+
+}
+
+.corps{
+    display: column;
+}
+
+main{
+  margin-left: 300px; 
+  padding: 0px 10px;
+}
+
+
+h1{
+    display: flex;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: "Gabarito";
+    color: #333333;
+}   	 
+
+
+h2{
+    font-size: 2.25em;
+    font-weight: bold;
+    font-family: "Gabarito";
+    color: #333333;
+}                                                                                                                                                                          	 
+
+h3{
+    font-size: 1.75em;
+    font-weight: bold;
+    font-family: "Gabarito";
+    color: #595959;
+}   	 
+
+p, ul{
+    color: gray;
+    font-size: 1.5em;
+    margin-left: 1.25em;
+    text-align: justify;
+    padding: 0.5em;
+	width: 40%;
+	height:40%;
+
+	background-color: ghostwhite;
+}
+
+main{
+    display: column;
+    flex-direction: row;
+}
+
+section{
+    display: flex;
+}
+
+#logo{
+    display: block;
+      margin-right: auto;
+      width: 30%;
+}
+
+a{
+    color:white;
+    text-decoration: underline overline white;
+
+}
+
+a:hover{
+  color:lightgray;
+}
